@@ -1,0 +1,48 @@
+<template name = "use_chart">
+
+<div class = "container" >
+<div class = "panel panel-default container">
+{{#each fillchart}}
+<table class="table table-hover">
+  <tbody>
+    <tr>
+      <td>Brand Name</td>
+      <td>{{brand_name}}</td>
+    </tr>
+    <tr>
+      <td>Generic Name</td>
+      <td>{{generic_name}}</td>
+    </tr>
+    <tr>
+      <td>Substance Name</td>
+      <td>{{substance_name}}</td>
+    </tr>
+    <tr>
+      <td>Consumption</td>
+      <td>{{route}}</td>
+    </tr>
+    <tr>
+      <td>Storage</td>
+      <td>{{storage}}</td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td>{{description}}</td>
+    </tr>
+    <tr>
+      <td>Dosage</td>
+      <td>{{dosage}}</td>
+    </tr>
+
+  </tbody>
+</table>
+
+{{/each}}
+
+
+</div>
+</div>
+
+
+</template>
+

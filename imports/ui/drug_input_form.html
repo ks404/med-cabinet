@@ -1,0 +1,25 @@
+
+
+
+<template name="drug_input_form">
+
+<div class = "panel panel-default container">
+
+<form class="form-group drug_form">
+  <div>
+  <br>
+    <input type="text" class="form-control" id="drug_input" placeholder="Search by Medicine Brand Name">
+  </div> 
+  <br>
+  <button type="submit" class="btn btn-default">Search</button>
+{{#if currentUser }}
+  <button type="button" class="btn btn-default addCabinet">Add to Cabinet</button>
+{{/if}}
+</form>
+
+</div>
+
+
+
+
+</template>

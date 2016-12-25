@@ -1,0 +1,40 @@
+<template name="cabinet">
+
+<body>
+<div class = "container-fluid">
+{{> drug_input_form}}
+
+</div>
+
+<div class = "container-fluid">
+<h2>My Cabinet</h2>
+
+<div class = "container col-lg-3 col-md-3">
+
+<div class="list-group">
+  {{#each makelist}}
+    <a href=# id="med_button" class="list-group-item">{{med_name}}
+
+        <button type="button" id="del_button" class="btn btn-default btn-xs pull-right">Delete</button>
+
+
+    </a>
+  {{/each}}
+</div>
+</div>
+
+<div class = "container col-sm-9 col-lg-9 col-md-9">
+
+{{> effect_chart}}
+
+{{> use_chart}}
+
+</div>
+
+
+</div>
+</body>
+
+
+
+</template>
