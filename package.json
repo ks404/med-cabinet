@@ -10,6 +10,8 @@
     "fibers": "^1.0.15",
     "future": "^2.3.1",
     "meteor-node-stubs": "~0.2.0",
+    "node": "6.9.1",
+    "npm": "^4.0.5",
     "request": "^2.79.0"
   }
 }
