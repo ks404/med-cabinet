@@ -2,10 +2,12 @@ import { Meteor } from 'meteor/meteor';
 
 import { Meddb } from '/imports/data/api/medicine_data.js';
 
+const Future = Npm.require('fibers/future');
+
 //---Modules
 
-var request = require('request');
-var Future = require('fibers/future'); 
+const request = Npm.require('request');
+//var Future = require('fibers/future'); 
 
 
 
